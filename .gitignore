@@ -1,0 +1,30 @@
+# Data and results - do not upload
+data/
+*.bed
+*.bim
+*.fam
+*.parq
+*.parquet
+*.gz
+*.rds
+*.ld
+*.ld.gz
+
+# Logs/intermediate outputs
+*.log
+logs/
+tmp/
+loci/
+results/
+
+# Python/R cache
+__pycache__/
+*.pyc
+.Rhistory
+.RData
+.Ruserdata
+
+# OS/editor files
+.DS_Store
+.vscode/
+.idea/
